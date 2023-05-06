@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-image: linear-gradient(to right, cyan, rgb(216, 226, 229));
+}
+.stop-watch {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding-inline: 20px;
+}
+h1 {
+  text-transform: uppercase;
+}
+.btn {
+  margin-block: 20px;
+}
+.btn-1 {
+  padding: 10px 15px;
+  background-color: skyblue;
+  font-weight: 700;
+  font-size: 19px;
+  margin-inline: 3px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.btn-1:active {
+  background-color: red;
+}
